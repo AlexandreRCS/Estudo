@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'cordel';
+    src:  url('fonte/cordelina.otf') format('opentype');
+
+}
+
+:root{
+    --fontePrincipal: 'cordel','Open Sans', Verdana, sans-serif;
+    --cor01: #F2E8D5 ;
+    --cor02: #D9D0BF;
+    --cor03: #59564F;
+    --cor04: #A69F94;
+    --cor05: #0D0D0D ;
+}
+
+body{
+    font-family: 'cordel';
+}
+
+header{
+    height: 200px;
+    text-align: center;
+    background-color: var(--cor04);
+}
+
+header > h1{
+    padding: 50px;
+    font-size: 3em;
+}
