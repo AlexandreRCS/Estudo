@@ -2,6 +2,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    
 }
 
 @font-face{
@@ -19,8 +20,9 @@
     --cor05: #0D0D0D ;
 }
 
-body{
+ body{
     font-family: 'cordel';
+
 }
 
 header{
@@ -58,9 +60,10 @@ section.imagen{
     max-width: 700px;
     min-width: 280px;
     box-shadow: inset 5px 5px 10px var(--cor05), inset -5px -5px 10px var(--cor05) ;
-    padding: 40px 0px;
-    background-attachment: fixed;
-    background-size: cover;
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
     margin: auto;
 
 }
