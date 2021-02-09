@@ -41,7 +41,7 @@ h2{
     padding: 20px 0px;
 }
 
-p{
+article> p{
     line-height: 2em;
     padding: 5px;
     max-width: 940px;
@@ -71,4 +71,49 @@ article{
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom left 25%;
+}
+
+.veneza{
+    background-image: url('../imagens/veneza.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.porto{
+    background-image: url('../imagens/porto.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.madrid{
+    background-image: url('../imagens/madrid.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.berlin{
+    background-image: url('../imagens/berlin.jpg');
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right 20%;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+    background-color: var(--cor02);
 }
