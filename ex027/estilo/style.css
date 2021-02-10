@@ -60,12 +60,12 @@ article{
     background-size: cover;
     background-attachment: fixed;
     background-position: left 25% center;
-    height: 700px;
+    height: 90vh;
 
 }
 
 .amsterdam{
-    height: 700px;
+    height: 90vh;
     background-image: url('../imagens/amsterdam.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@ article{
 
 .veneza{
     background-image: url('../imagens/veneza.jpg');
-    height: 700px;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ article{
 
 .porto{
     background-image: url('../imagens/porto.jpg');
-    height: 700px;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -93,7 +93,7 @@ article{
 
 .madrid{
     background-image: url('../imagens/madrid.jpg');
-    height: 700px;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,7 +102,7 @@ article{
 
 .berlin{
     background-image: url('../imagens/berlin.jpg');
-    height: 750px;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
