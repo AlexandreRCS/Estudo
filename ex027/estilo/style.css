@@ -10,22 +10,22 @@
 
 :root{
     --fontpricipal: 'Montserrat', sans-serif;
-    --cor01:#d0e4ec;
-    --cor02:#01B0CD;
+    --cor01:#d0e9f3;
+    --cor02:#01aecdf8;
     --cor03:#A9A19A;
-    --cor04:#D99B77;
+    --cor04:#e0c4b4;
     --cor05:#DC733C;
 }
 
 body{
     font-family: var(--fontpricipal);
-    background-color: var(--cor03);
+    
 }
 
 header{
     text-align: center;
     padding: 50px 0px;
-    background-color: var(--cor01);
+    background-color: var(--cor04);
 }
  
 header > h1{
@@ -47,11 +47,16 @@ article> p{
     max-width: 940px;
     margin: auto;
     text-align: justify;
+    
 }
+
+
 
 article{
    background-color: var(--cor01);
    text-align: center;
+   box-shadow:  0px -7px 10px  rgba(0, 0, 0, 0.562);
+  
 }
 
 .londres{
